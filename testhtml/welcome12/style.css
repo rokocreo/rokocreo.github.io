@@ -5,6 +5,32 @@ html, body {
   font-family: "PT Sans",Helvetica,Arial,sans-serif;
 }
 
+/* price */
+
+.price-container {
+  color: #fff;
+  background-color: #39b54a;
+}
+
+.price {
+  width: 970px;
+  margin: auto;
+  text-align: center;
+  border:1px solid red;
+  /*height:200px;*/
+  padding:10px;
+}
+
+.price p {
+  font-size: 100px;
+  line-height:2px;
+}
+
+.price_description {
+    font-size: 12px;
+}
+
+
 /* footer begin*/
 
 .clearfix:after{
@@ -14,7 +40,7 @@ html, body {
 }
 
 .footer-container {
-  margin-top:40px;
+  margin-top:0px;
   background:#2d2d44;
   width:100%;
   height:200px;
@@ -23,7 +49,7 @@ html, body {
 .footer {
   padding:10px;
   padding-top:20px;
-  width:840px;
+  width:970px;
   margin:auto;
   border:1px solid red;
 }
