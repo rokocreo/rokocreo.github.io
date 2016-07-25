@@ -1,0 +1,111 @@
+/* Styles go here */
+html, body {
+  margin:0;
+  padding:0;
+  font-family: "PT Sans",Helvetica,Arial,sans-serif;
+}
+
+/* ++++++++++++++++ header begin  +++++++++++++  */
+
+.clearfix:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.header-container {
+  /*background:#2d2d44;*/
+  background-color:#999;
+  background-color:white;
+  width:100%;
+}
+
+.header {
+  width:980px;
+  margin:auto;
+  /*border:1px solid red;*/
+  background:white;
+}
+
+.header-left {
+  /*border:1px solid green;*/
+  float: left;
+}
+
+.logo {
+}
+
+.header-right {
+  float:right;
+  /*border:1px solid green;*/
+ 
+}
+
+.header-right-item {
+  line-height: 25px;
+}
+
+.header-right-item ul {
+  list-style:none;
+  margin:0px;
+  padding:0px;
+}
+
+.header-right-item li {
+  display:inline-block;
+  margin-right:15px;
+}
+
+.header-right-item a {
+  text-decoration: none;
+  color:#999;
+  font-size: 16px;
+  
+}
+
+.header-right-item a:hover {
+  text-decoration: underline;
+  color:black;
+}
+
+input[type=text], input[type=email], input[type=password], input.text, textarea 
+{
+    width: 160px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #555;
+    border-width: 1px;
+    border-color: #999 #ccc #ccc #999;
+    padding: 2px;
+    font-size: 10pt;
+    resize: none;
+}
+
+.main-nav { 
+  width:980px;
+  margin:auto;
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 4px;
+  background-color: #464646;
+  color: #555;
+  
+}
+
+.main-nav li {
+  display:inline-block;
+  margin-right:15px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color:#999;
+  font-size: 16px;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+  color:white;
+}
+
