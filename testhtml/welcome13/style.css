@@ -1,0 +1,122 @@
+/* Styles go here */
+html, body {
+  padding:0px;
+  margin:0px;
+  line-height: 1.44;
+  font-family: 'Raleway', Georgia;
+
+}
+/* ++++++++++++ main menu */
+.header {
+  background-color: black;
+
+}
+
+.container {
+  /*height: 90px;*/
+  width: 960px;
+  border: 1px dashed red;
+  margin:auto;
+}
+
+.container ul {
+  list-style: none;
+  margin:0px;
+  padding:0px;
+}
+
+.container li {
+  display:inline-block;
+  border-right: 3px solid yellow;
+  background-color: blue;
+  padding: 10px 30px 10px 30px;
+  margin-right: -4px;
+
+}
+
+.container a {
+  text-decoration: none;
+  font-size: 16px;
+  color:white;
+}
+
+.container li:hover  {
+  background-color: green;
+}
+
+
+
+
+.main-landing {
+  width:960px;
+  background:white;
+  margin:auto;
+  margin-top:5px;
+  border:2px dotted red;
+}
+
+.inline-b {
+  display: inline-block;
+  border: 1px solid blcack;
+  width:440px;
+  min-height:50px;
+  background-color: #F38630;
+  border-radius: 5px;
+}
+
+.span12 {
+  width: 70%;
+  margin-left: 1.0416666666666665%;
+  margin-right: 1.0416666666666665%
+}
+
+h1 {
+  color: #07bde3;
+  /*font-weight: 400;*/
+  /*font-size: 52px;*/
+  font-size: 30px;
+  font-family: 'Raleway', Georgia;
+}
+
+.intro {
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: 'Oswald', Arial;
+  font-weight: normal;
+}
+
+.span12 strong {
+  /*font-weight: 700;*/
+  font-size: 30px;
+  font-family: 'Oswald', Arial;
+  line-height: 1.2;
+}
+
+.notecard {
+    background: #d3f1f7;
+    padding: 2em;
+    position: relative;
+    font-family: 'Raleway', Georgia;
+    padding: 10px;
+    left:520px;
+    width:400px;
+    height:300px;
+}
+
+blockquote {
+    display: block;
+}
+
+.ugol {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: white url('http://keono.com/assets/images/_template_pageturn.svg') bottom right no-repeat;
+}
+
+/*
+http://keono.com/assets/images/_template_pageturn.svg
+keono.com/about
+*/
