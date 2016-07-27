@@ -41,7 +41,7 @@ margin: 18px;
 }
 
 input[type="text"] {
-/*box-sizing: border-box;*/
-/*width: 100%;*/
+box-sizing: border-box;
+width: 100%;
 padding: 10px;
 }
