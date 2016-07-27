@@ -112,11 +112,12 @@ blockquote {
 .inline-b {
   display: inline-block;
   border: 1px solid blcack;
-  width:400px;
+  width:300px;
+  /*width:30%;*/
   min-height:50px;
-  background-color: #F38630;
+  background-color: orange;
   border-radius: 5px;
-  margin:5px;
+  /*box-sizing:border-box;*/
 }
 
 /* use for block flow 2 */
@@ -126,6 +127,11 @@ blockquote {
   margin:auto;
   margin-top:5px;
   border:2px dotted green;
+  padding:5px;
+}
+
+.bflow2{
+  width:100%;
 }
 
 .c-blue {
