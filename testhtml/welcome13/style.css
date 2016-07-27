@@ -96,7 +96,7 @@ blockquote {
     left: 0;
     width: 30px;
     height: 30px;
-    background: white url('img/_template_pageturn.svg') bottom right no-repeat;
+    background: white url('_template_pageturn.svg') bottom right no-repeat;
 }
 
 /* styles for block flow */
