@@ -31,7 +31,12 @@ html, body {
   background-color: blue;
   padding: 10px 30px 10px 30px;
   margin-right: -4px;
+  width:97px;
 
+}
+
+.container li:last-child {
+  border-color: blue;
 }
 
 .container a {
@@ -44,9 +49,6 @@ html, body {
   background-color: green;
 }
 
-
-
-
 .main-landing {
   width:960px;
   background:white;
@@ -55,27 +57,13 @@ html, body {
   border:2px dotted red;
 }
 
-.inline-b {
-  display: inline-block;
-  border: 1px solid blcack;
-  width:440px;
-  min-height:50px;
-  background-color: #F38630;
-  border-radius: 5px;
-}
-
-.span12 {
-  width: 70%;
-  margin-left: 1.0416666666666665%;
-  margin-right: 1.0416666666666665%
-}
-
-h1 {
+.main-landing h1 {
   color: #07bde3;
   /*font-weight: 400;*/
   /*font-size: 52px;*/
   font-size: 30px;
   font-family: 'Raleway', Georgia;
+  text-align: center;
 }
 
 .intro {
@@ -85,26 +73,21 @@ h1 {
   font-weight: normal;
 }
 
-.span12 strong {
-  /*font-weight: 700;*/
-  font-size: 30px;
-  font-family: 'Oswald', Arial;
-  line-height: 1.2;
-}
-
 .notecard {
+    display: inline-block;
     background: #d3f1f7;
-    padding: 2em;
     position: relative;
     font-family: 'Raleway', Georgia;
     padding: 10px;
-    left:520px;
-    width:400px;
-    height:300px;
+    margin:10px;
+    /*left:520px;*/
+    width:438px;
+    /*height:250px;*/
+    vertical-align: top;
 }
 
 blockquote {
-    display: block;
+
 }
 
 .ugol {
@@ -113,7 +96,40 @@ blockquote {
     left: 0;
     width: 30px;
     height: 30px;
-    background: white url('http://keono.com/assets/images/_template_pageturn.svg') bottom right no-repeat;
+    background: white url('img/_template_pageturn.svg') bottom right no-repeat;
+}
+
+/* styles for block flow */
+
+.container2 {
+  width:960px;
+  background:white;
+  margin:auto;
+  margin-top:5px;
+  border:2px dotted green;
+}
+
+.inline-b {
+  display: inline-block;
+  border: 1px solid blcack;
+  width:400px;
+  min-height:50px;
+  background-color: #F38630;
+  border-radius: 5px;
+  margin:5px;
+}
+
+/* use for block flow 2 */
+.container4 {
+  width:960px;
+  background:white;
+  margin:auto;
+  margin-top:5px;
+  border:2px dotted green;
+}
+
+.c-blue {
+  background-color: #d3f1f7;
 }
 
 /*
