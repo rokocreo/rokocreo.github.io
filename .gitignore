@@ -2,8 +2,9 @@ _site
 .sass-cache
 .jekyll-metadata
 testhtml/welcome15a/astro/img/32x32xom.jpg
-*.jpg
 testhtml/welcome15a/astro/img/VK_200_200_logo.png
-*.png
+testhtml/welcome15a/astro/img/FB_200_200_logo_2.jpg
+testhtml/welcome15a/astro/img/VK_363_363_logo.png
 testhtml/welcome15a/astro/index.html
 testhtml/welcome15a/astro/style.css
+
