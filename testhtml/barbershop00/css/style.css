@@ -129,4 +129,16 @@ body{
         opacity: 0.3;
     }
 
-/*-----  End of $Header  ------*/
+/*-----  End of Header  ------*/
+
+/*===============================
+=            Footer            =
+===============================*/
+
+.main-footer {
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: #232323 url("../img/bg-footer.jpg") repeat;
+    color: #ffffff;
+}
