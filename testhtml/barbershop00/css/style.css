@@ -1,5 +1,132 @@
-body{
-  /*background-image:  url("../img/bg-index-body.jpg") no-repeat;*/
-  /*background-color: lightgrey;*/
-  /*color:white;*/
+
+/*====================================
+=            Common   Styles         =
+====================================*/
+body, html {
+  margin: 0;
+  padding: 0;
 }
+
+body{
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  min-width: 960px;
+}
+
+.body-index {
+  color: #ffffff;
+  background: #070707 url("../img/bg-index-body.jpg") no-repeat center top;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/*===============================
+=            Header            =
+===============================*/
+
+.main-header {
+    margin-bottom: 60px;
+    background: #000000;
+    color: #ffffff;
+}
+
+.main-navigation {
+    float: left;
+    width: 780px;
+}
+
+.main-navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.main-navigation li{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main-navigation a {
+    display: block;
+    padding: 25px 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-navigation a:hover,
+.main-navigation a:active {
+    background-color: #242424;
+}
+
+.main-navigation .active a {
+    position: relative;
+}
+
+.main-navigation .active a:hover {
+    background: none;
+}
+
+.main-navigation .active a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    height: 4px;
+    background: #ffffff;
+}
+
+.user-block {
+    float: right;
+    max-width: 140px;
+}
+
+.login {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 25px 20px;
+    padding-left: 50px;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.login:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    background: transparent url("../img/sprite.png") no-repeat;
+    background-position: 0 0;
+    top: 28px;
+    left: 20px;
+}
+
+    .login:hover,
+    .login:active {
+        background-color: #242424;
+    }
+
+    .login:hover:before {
+        opacity: 0.3;
+    }
+
+/*-----  End of $Header  ------*/
