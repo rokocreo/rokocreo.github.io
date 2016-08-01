@@ -1,0 +1,115 @@
+
+/*   Common   Styles  */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: Amsdam;
+    src: url("../fonts/AmsdamFF/Amsdam-Regular.ttf");
+}
+
+/*body {*/
+  /*font-size: 14px;*/
+  /*line-height: 24px;*/
+  /*font-family: "PT Sans Narrow", sans-serif;*/
+  /*font-weight: bold;*/
+  /*text-transform: uppercase;*/
+  /*min-width: 1200px;*/
+/*}*/
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 60px;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: Amsdam,"PT Sans Narrow", sans-serif;
+  /*font-weight: bold;*/
+  color: #3e3d3d;
+  text-transform: uppercase;
+  text-align:center;
+}
+
+.text-under-h2 {
+  display: inline-block;
+  margin: 0 70px;
+  font-size: 14px;
+  line-height: 25px;
+  /*line-height: 20px;*/
+  font-family: "Crimson Text", sans-serif;
+  color: #3e3d3d;
+}
+
+.btn {
+  display: inline-block;
+  text-align:center;
+  margin-right:5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width:135px;
+  height:40px;
+  box-sizing: border-box;
+  background: #3e3d3d;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  line-height: 13px;
+  color: #cecece;
+  border: 2px solid #3e3d3d;
+
+}
+
+.btn-white {
+  background: #ffffff;
+  color: #3e3d3d;
+}
+
+.btn-about a {
+  text-decoration: none;
+}
+/* end of common styles */
+
+
+/* !!!!!!!!!!!!!!!!  Header */
+/*-----  End of Header  ------*/
+
+/* !!!!!!!!!!!!!!!!  about us */
+
+/*-----   Abouut US   ------*/
+.about-us-img {
+  background: url("../img/about-us-img.jpg") no-repeat;
+  min-height: 325px;
+}
+.main-about-us {
+  border: 1px solid black;
+  background: #e3e3e3;
+}
+
+.main-about-us .container {
+  background: #ffffff;
+}
+
+.btn-about {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/*-----   End About US   ------*/
+
+/* Footer */
+
+.main-footer {
+    /*background: #232323 url("../img/bg-footer.jpg") repeat;*/
+}
