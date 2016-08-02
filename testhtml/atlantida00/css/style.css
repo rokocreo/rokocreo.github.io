@@ -5,19 +5,26 @@ html, body {
   padding: 0;
 }
 
-@font-face {
-    font-family: Amsdam;
-    src: url("../fonts/AmsdamFF/Amsdam-Regular.ttf");
+html {
+  /*background: #939393;*/
 }
 
-/*body {*/
+
+body {
   /*font-size: 14px;*/
   /*line-height: 24px;*/
   /*font-family: "PT Sans Narrow", sans-serif;*/
   /*font-weight: bold;*/
   /*text-transform: uppercase;*/
-  /*min-width: 1200px;*/
-/*}*/
+  width: 1600px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+@font-face {
+    font-family: Amsdam;
+    src: url("../fonts/AmsdamFF/Amsdam-Regular.ttf");
+}
 
 .clearfix:after {
   content: "";
@@ -69,12 +76,23 @@ h2 {
 
 }
 
+.btn-get-started {
+  font-size: 15px;
+  line-height: 50px;
+  font-weight: bold;
+  background-color: inherit;
+  border: 2px solid #ffffff;
+  color:#ffffff;
+
+}
+
 .btn-white {
   background: #ffffff;
   color: #3e3d3d;
 }
 
-.btn-about a {
+.btn-about a,
+a.btn {
   text-decoration: none;
 }
 /* end of common styles */
@@ -83,15 +101,57 @@ h2 {
 /* !!!!!!!!!!!!!!!!  Header */
 /*-----  End of Header  ------*/
 
+/* slider start */
+.slider-prev,
+.slider-data,
+.slider-next {
+
+}
+
+.slider {
+  background: url("../img/slider-bg.jpg") no-repeat;
+  min-height: 635px;
+}
+
+.slider-prev {
+  /*position:relative;
+  top:290px;
+  left:0px;*/
+}
+
+.slider-next {
+  /*position:relative;
+  top:290px;
+  right:0px;*/
+}
+
+.text-slider {
+  font-family: "Crimson Text", sans-serif;
+  font-size: 14px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: Amsdam, sans-serif;
+  font-size: 36px;
+  line-height: 200px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* slider end */
+
 /* !!!!!!!!!!!!!!!!  about us */
 
 /*-----   Abouut US   ------*/
 .about-us-img {
   background: url("../img/about-us-img.jpg") no-repeat;
+  background-size: auto;
   min-height: 325px;
 }
 .about-us {
-  border: 1px solid black;
+  padding-top: 70px;
+  /*border: 1px solid black;*/
   background: #e3e3e3;
 }
 
