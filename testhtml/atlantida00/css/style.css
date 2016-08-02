@@ -79,10 +79,11 @@ h2 {
 .btn-get-started {
   font-size: 15px;
   line-height: 50px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   background-color: inherit;
   border: 2px solid #ffffff;
   color:#ffffff;
+  width: 150px;
 
 }
 
@@ -98,31 +99,38 @@ a.btn {
 /* end of common styles */
 
 
-/* !!!!!!!!!!!!!!!!  Header */
+/*   Header */
 /*-----  End of Header  ------*/
 
 /* slider start */
-.slider-prev,
-.slider-data,
-.slider-next {
-
-}
 
 .slider {
   background: url("../img/slider-bg.jpg") no-repeat;
   min-height: 635px;
 }
 
+.slider .container {
+  text-align: center;
+  position:relative;
+  /*vertical-align: middle;*/
+}
+
 .slider-prev {
-  /*position:relative;
-  top:290px;
-  left:0px;*/
+  position: absolute;
+  top: 290px;
+  left: 0;
 }
 
 .slider-next {
-  /*position:relative;
-  top:290px;
-  right:0px;*/
+  position: absolute;
+  top: 290px;
+  right: 0;
+}
+
+.slider-data {
+  display: inline-block;
+  margin-top:120px;
+
 }
 
 .text-slider {
