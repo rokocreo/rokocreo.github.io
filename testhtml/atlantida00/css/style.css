@@ -31,9 +31,9 @@ html, body {
 }
 
 h2 {
-  margin-top: 60px;
+  /*margin-top: 60px;*/
   font-size: 20px;
-  line-height: 20px;
+  line-height: 225px;
   font-family: Amsdam,"PT Sans Narrow", sans-serif;
   /*font-weight: bold;*/
   color: #3e3d3d;
@@ -54,16 +54,16 @@ h2 {
 .btn {
   display: inline-block;
   text-align:center;
-  margin-right:5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /*margin-right:5px;*/
+  /*padding-top: 10px;*/
+  /*padding-bottom: 10px;*/
   width:135px;
-  height:40px;
+  /*height:40px;*/
   box-sizing: border-box;
   background: #3e3d3d;
   font-family: Montserrat, sans-serif;
   font-size: 13px;
-  line-height: 13px;
+  line-height: 44px;
   color: #cecece;
   border: 2px solid #3e3d3d;
 
@@ -90,21 +90,71 @@ h2 {
   background: url("../img/about-us-img.jpg") no-repeat;
   min-height: 325px;
 }
-.main-about-us {
+.about-us {
   border: 1px solid black;
   background: #e3e3e3;
 }
 
-.main-about-us .container {
+.about-us .container {
   background: #ffffff;
 }
 
 .btn-about {
   display: block;
   margin: 0 auto;
-  margin-top: 50px;
+  margin: 50px 0;
   text-align: center;
 }
+
+.about-us-row-items {
+  display: block;
+  text-align: center;
+  background: #e3e3e3;
+}
+
+.about-us-item {
+  display: inline-block;
+  width: 170px;
+  /*margin: 40px 0;*/
+  /*border-right: 3px solid #b0b0b0;*/
+}
+
+
+
+.about-us-item-title {
+  display:block;
+  /*position: relative;*/
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #3e3d3d;
+}
+
+.about-us-item-number {
+  display:block;
+  font-family: Montserrat, sans-serif;
+  font-size: 45px;
+  line-height: 44px;
+  /*text-transform: uppercase;*/
+  color: #3e3d3d;
+}
+
+.about-us-item:last-child {
+  /*border: none;*/
+}
+
+/*.about-us-item:before {
+  position: absolute;
+  content: "";
+  color: #333;
+  background-color: #fc0;
+  height: 100px;
+  padding:0 10px;
+}*/
+
+
+    /*background: url("../img/about-divider.jpg") no-repeat;*/
 
 /*-----   End About US   ------*/
 
