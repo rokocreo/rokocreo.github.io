@@ -38,12 +38,12 @@ body {
 }
 
 h2 {
-  /*margin-top: 60px;*/
+  margin: 0;
+  /*display:inline-block;*/
   font-size: 20px;
   line-height: 225px;
   font-family: Amsdam,"PT Sans Narrow", sans-serif;
   /*font-weight: bold;*/
-  color: #3e3d3d;
   text-transform: uppercase;
   text-align:center;
 }
@@ -55,8 +55,16 @@ h2 {
   line-height: 25px;
   /*line-height: 20px;*/
   font-family: "Crimson Text", sans-serif;
+}
+
+.color-grey-h2 {
   color: #3e3d3d;
 }
+
+.color-white-h2 {
+  color: #ffffff;
+}
+
 
 .btn {
   display: inline-block;
@@ -169,13 +177,13 @@ a.btn {
 
 .slider-prev {
   position: absolute;
-  top: 290px;
+  top: 250px;
   left: 0;
 }
 
 .slider-next {
   position: absolute;
-  top: 290px;
+  top: 250px;
   right: 0;
 }
 
@@ -193,6 +201,7 @@ a.btn {
 }
 
 h1 {
+  margin: auto;
   font-family: Amsdam, sans-serif;
   font-size: 36px;
   line-height: 200px;
@@ -211,6 +220,7 @@ h1 {
 }
 .about-us {
   background: #e3e3e3;
+  padding-top: 70px;
 }
 
 .about-us .container {
@@ -264,16 +274,6 @@ h1 {
   color: #3e3d3d;
 }
 
-.about-us-item:last-child {
-  /*border: none;*/
-}
-
-/*.divider {
-  position: absolute;
-  top: 0px;
-  left: 250px;
-}*/
-
 .about-us-item:before {
   position: absolute;
   content: "";
@@ -293,6 +293,30 @@ h1 {
 
 /*-----   End About US   ------*/
 
+/*services start*/
+.services {
+  background: url("../img/services-bg.jpg") no-repeat;
+  /*background-size: auto;*/
+  min-height: 742px;
+  opacity: 0.9;
+}
+
+.services-row-item {
+
+}
+
+.services-item {
+  display: inline-block;
+  height: 375px;
+  width: 240px;
+  border: 2px solid #3e3d3d;
+  padding: 15px;
+  margin-left: 15px;
+}
+
+
+
+/*end of services */
 /* Footer */
 
 .main-footer {
