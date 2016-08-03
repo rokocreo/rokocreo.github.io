@@ -158,8 +158,6 @@ h1 {
   min-height: 325px;
 }
 .about-us {
-  padding-top: 70px;
-  /*border: 1px solid black;*/
   background: #e3e3e3;
 }
 
@@ -178,20 +176,26 @@ h1 {
   display: block;
   text-align: center;
   background: #e3e3e3;
+  padding-top:35px;
+  padding-bottom: 75px;
 }
 
 .about-us-item {
   display: inline-block;
-  width: 170px;
+  position: relative;
+  width: 270px;
   /*margin: 40px 0;*/
   /*border-right: 3px solid #b0b0b0;*/
+  /*border:1px solid red;*/
 }
 
 
 
 .about-us-item-title {
   display:block;
-  /*position: relative;*/
+  position: relative;
+  padding-top:20px;
+  padding-bottom: 20px;
   font-family: Montserrat, sans-serif;
   font-size: 15px;
   line-height: 21px;
@@ -212,17 +216,28 @@ h1 {
   /*border: none;*/
 }
 
-/*.about-us-item:before {
+/*.divider {
   position: absolute;
-  content: "";
-  color: #333;
-  background-color: #fc0;
-  height: 100px;
-  padding:0 10px;
+  top: 0px;
+  left: 250px;
 }*/
 
+.about-us-item:before {
+  position: absolute;
+  content: "";
+  top:0;
+  right:0px;
+  width:1px;
+  height:168px;
+  /*background:red;*/
+  background: url("../img/about-divider.jpg") no-repeat;
+}
 
-    /*background: url("../img/about-divider.jpg") no-repeat;*/
+.about-us-item:last-child:before {
+  visibility: hidden;
+}
+
+/*background: url("../img/about-divider.jpg") no-repeat;*/
 
 /*-----   End About US   ------*/
 
