@@ -74,25 +74,24 @@ h2 {
   /*padding-bottom: 10px;*/
   width:135px;
   /*height:40px;*/
+  /*padding: 0 30px;*/
   box-sizing: border-box;
-  background: #3e3d3d;
   font-family: Montserrat, sans-serif;
   font-size: 13px;
   line-height: 44px;
-  color: #cecece;
+  letter-spacing: 1px;
   border: 2px solid #3e3d3d;
-
+  color: #cecece;
+  background: #3e3d3d;
 }
 
 .btn-get-started {
+  width: 150px;
   font-size: 15px;
   line-height: 50px;
-  /*font-weight: bold;*/
   background-color: inherit;
   border: 2px solid #ffffff;
   color:#ffffff;
-  width: 150px;
-
 }
 
 .btn-white {
@@ -111,6 +110,7 @@ a.btn {
 .main-header .container {
   position:relative;
   padding: 5px 0;
+  background: #ffffff;
 }
 
 .header-logo,
@@ -125,9 +125,11 @@ a.btn {
   padding-left:55px;
   font-family: Montserrat, sans-serif;
   font-size: 18px;
-  /*line-height: 50px;*/
+  line-height: 50px;
   text-transform: uppercase;
+  letter-spacing: 3px;
   color: #757575;
+  opacity: 0.8;
 }
 
 .header-logo:before {
@@ -175,6 +177,7 @@ a.btn {
   /*vertical-align: middle;*/
 }
 
+
 .slider-prev {
   position: absolute;
   top: 250px;
@@ -189,6 +192,7 @@ a.btn {
 
 .slider-data {
   display: inline-block;
+  /*position: relative;*/
   margin-top:120px;
 
 }
@@ -197,17 +201,35 @@ a.btn {
   font-family: "Crimson Text", sans-serif;
   font-size: 14px;
   line-height: 50px;
+  letter-spacing: 2px;
   color: #ffffff;
 }
 
+
 h1 {
-  margin: auto;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding:0;
   font-family: Amsdam, sans-serif;
   font-size: 36px;
   line-height: 200px;
+  font-weight: normal;
   text-transform: uppercase;
+  letter-spacing: 4px;
   color: #ffffff;
 }
+
+h1:before {
+  position: absolute;
+  content: "";
+  top:40px;
+  left:-5px;
+  width:519px;
+  height:109px;
+  background: url("../img/slider-lines.png") no-repeat;
+}
+
 /* slider end */
 
 /* !!!!!!!!!!!!!!!!  about us */
@@ -302,11 +324,12 @@ h1 {
 }
 
 .services-row-item {
-
+  margin-top: 30px;
 }
 
 .services-item {
   display: inline-block;
+  position: relative;
   height: 375px;
   width: 240px;
   border: 2px solid #3e3d3d;
@@ -314,6 +337,27 @@ h1 {
   margin-left: 15px;
 }
 
+
+.services-item img {
+  /*display: block;*/
+  /*display: inline-block;*/
+  /*position: absolute;
+  left:50%;
+  top:-12px;*/
+  display: inline-block;
+  text-align: center;
+}
+
+.services-img {
+  position: absolute;
+  width: 60px;
+  height: 25px;
+  border: 1px solid red;
+  left:50%;
+  top:-12px;
+  display: inline-block;
+  text-align: center;
+}
 
 
 /*end of services */
