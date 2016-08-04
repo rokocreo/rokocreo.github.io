@@ -162,6 +162,39 @@ a.btn {
   right:0;
   top:30%;
 }
+
+.soc-fb, .soc-tw, .soc-be {
+  position: relative;
+  margin: 0px;
+  padding: 0 5px;
+  /*border-right: 2px solid #aaaaaa;*/
+}
+
+.soc-be {
+  padding-right: 0;
+  /*border-right: none;*/
+}
+
+.soc-fb:after {
+  position: absolute;
+  content: "";
+  top:4px;
+  left:22px;
+  width:2px;
+  height:10px;
+  background: #aaaaaa;
+}
+
+.soc-tw:after {
+  position: absolute;
+  content: "";
+  top:4px;
+  left:22px;
+  width:2px;
+  height:10px;
+  background: #aaaaaa;
+}
+
 /*-----  End of Header  ------*/
 
 /* slider start */
