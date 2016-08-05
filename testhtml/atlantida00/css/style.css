@@ -38,6 +38,7 @@ body {
 }
 
 h2 {
+  position: relative;
   margin: 0;
   /*display:inline-block;*/
   font-size: 20px;
@@ -46,6 +47,8 @@ h2 {
   /*font-weight: bold;*/
   text-transform: uppercase;
   text-align:center;
+  letter-spacing: 2px;
+  font-weight: normal;
 }
 
 .text-under-h2 {
@@ -55,6 +58,7 @@ h2 {
   line-height: 25px;
   /*line-height: 20px;*/
   font-family: "Crimson Text", sans-serif;
+  letter-spacing: 1px;
 }
 
 .color-grey-h2 {
@@ -282,6 +286,16 @@ h1:before {
   background: #ffffff;
 }
 
+.about-us h2:before {
+  position: absolute;
+  content: "";
+  top: 150px;
+  left: 490px;
+  width:186px;
+  height: 5px;
+  background: url("../img/h2-divider-black.png") no-repeat;
+}
+
 .btn-about {
   display: block;
   margin: 0 auto;
@@ -353,7 +367,22 @@ h1:before {
   background: url("../img/services-bg.jpg") no-repeat;
   /*background-size: auto;*/
   min-height: 742px;
-  opacity: 0.9;
+  /*opacity: 0.9;*/
+}
+
+.services h2:before {
+  position: absolute;
+  content: "";
+  top: 150px;
+  left: 490px;
+  width:186px;
+  height: 5px;
+  background: url("../img/h2-divider-white.png") no-repeat;
+}
+
+.services .text-under-h2 {
+  text-align: center;
+  color: #bebebf;
 }
 
 .services-row-item {
@@ -362,36 +391,54 @@ h1:before {
 
 .services-item {
   display: inline-block;
+  text-align: center;
+  vertical-align: top;
   position: relative;
-  height: 375px;
-  width: 240px;
-  border: 2px solid #3e3d3d;
-  padding: 15px;
+  /*height: 490px;*/
+  width: 270px;
+  /*border: 1px solid red;*/
+  /*padding: 15px;*/
   margin-left: 15px;
+  color: #bebebf;
+  /*color: #ffffff;*/
 }
 
-
-.services-item img {
-  /*display: block;*/
-  /*display: inline-block;*/
-  /*position: absolute;
-  left:50%;
-  top:-12px;*/
-  display: inline-block;
-  text-align: center;
+.services-item:before {
+  position: absolute;
+  content: "";
+  top: 8px;
+  left: 0px;
+  width:270px;
+  height:377px;
+  background: url("../img/services-border.jpg");
+  background-repeat: no-repeat;
 }
 
 .services-img {
-  position: absolute;
-  width: 60px;
-  height: 25px;
-  border: 1px solid red;
-  left:50%;
-  top:-12px;
-  display: inline-block;
+  display: block;
   text-align: center;
 }
 
+.services-item-title {
+  display: inline-block;
+  margin-top: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.services-item-text {
+  display: inline-block;
+  width: 190px;
+  padding: 30px 5px;
+  font-family: "Crimson Text", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  /*border: 1px solid blue;*/
+}
 
 /*end of services */
 /* Footer */
