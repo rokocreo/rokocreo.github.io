@@ -40,7 +40,7 @@ body {
 h2 {
   position: relative;
   margin: 0;
-  /*display:inline-block;*/
+  display:block;
   font-size: 20px;
   line-height: 225px;
   font-family: Amsdam,"PT Sans Narrow", sans-serif;
@@ -52,13 +52,15 @@ h2 {
 }
 
 .text-under-h2 {
-  display: inline-block;
+  display: block;
   margin: 0 70px;
+  /*margin-top: -100px;*/
   font-size: 14px;
   line-height: 25px;
   /*line-height: 20px;*/
   font-family: "Crimson Text", sans-serif;
   letter-spacing: 1px;
+
 }
 
 .color-grey-h2 {
@@ -90,6 +92,7 @@ h2 {
 }
 
 .btn-get-started {
+  position: relative;
   width: 150px;
   font-size: 15px;
   line-height: 50px;
@@ -267,6 +270,16 @@ h1:before {
   background: url("../img/slider-lines.png") no-repeat;
 }
 
+.btn-get-started::after {
+  position: absolute;
+  content:"";
+  left: 60px;
+  top: 43px;
+  width: 15px;
+  height: 50px;
+  background: url("../img/slider-button-arrow.png") no-repeat;
+}
+
 /* slider end */
 
 /* !!!!!!!!!!!!!!!!  about us */
@@ -399,11 +412,12 @@ h1:before {
   /*border: 1px solid red;*/
   /*padding: 15px;*/
   margin-left: 15px;
-  color: #bebebf;
+  /*color: #bebebf;*/
+  color: #d8d8d8;
   /*color: #ffffff;*/
 }
 
-.services-item:before {
+.services-item::before {
   position: absolute;
   content: "";
   top: 8px;
@@ -416,11 +430,11 @@ h1:before {
 
 .services-img {
   display: block;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .services-item-title {
-  display: inline-block;
+  display: block;
   margin-top: 20px;
   font-family: Montserrat, sans-serif;
   font-size: 13px;
@@ -430,17 +444,129 @@ h1:before {
 }
 
 .services-item-text {
-  display: inline-block;
-  width: 190px;
-  padding: 30px 5px;
+  display: block;
+  /*margin:auto;*/
+  /*width: 190px;*/
+  height:210px;
+  padding: 30px 30px;
   font-family: "Crimson Text", sans-serif;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 1px;
+  text-align: center;
   /*border: 1px solid blue;*/
 }
 
 /*end of services */
+
+/* -------------------------------------------*/
+/* start HISTORY */
+/* -------------------------------------------*/
+.history  {
+  border: 1px solid brown;
+}
+
+.history .container {
+  border: 1px solid blue;
+  min-height: 1600px;
+}
+
+.history h2:before {
+  position: absolute;
+  content: "";
+  top: 150px;
+  left: 490px;
+  width:186px;
+  height: 5px;
+  background: url("../img/h2-divider-black.png") no-repeat;
+}
+
+.history .text-under-h2 {
+  text-align: center;
+  /*color: #bebebf;*/
+  /*color: #3e3d3d;*/
+  /*border:1px solid red;*/
+}
+
+.history-items-gr {
+  position: relative;
+  display: block;
+  padding-top: 160px;
+  color: #3e3d3d;
+}
+
+.history-items-gr::before {
+  position: absolute;
+  content:"";
+  left: 584px;
+  top: 105px;
+  width: 2px;
+  height: 1051px;
+  background: url("../img/history-line.png") no-repeat;
+}
+
+.left-column,
+.right-column  {
+  display:inline-block;
+  width:560px;
+  border: 1px solid red;
+}
+
+.left-column {
+  margin-right: 42px;
+}
+
+.left-column .history-item {
+  display: block;
+  box-sizing: padding-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+.right-column .history-item {
+  box-sizing: padding-box;
+  margin-right: 42px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 15px;
+}
+
+.history-item {
+  border:1px solid #3e3d3d;
+}
+
+.history-item-title {
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.history-item-date{
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: none;
+}
+
+.history-item-text {
+  display: block;
+  font-family: "Crimson Text", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1px;
+  text-transform: none;
+}
+
+
+
+/* end of history */
 /* Footer */
 
 .main-footer {

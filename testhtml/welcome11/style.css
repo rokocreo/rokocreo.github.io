@@ -38,7 +38,7 @@ html, body {
 .header-right {
   float:right;
   /*border:1px solid green;*/
- 
+
 }
 
 .header-right-item {
@@ -60,7 +60,7 @@ html, body {
   text-decoration: none;
   color:#999;
   font-size: 16px;
-  
+
 }
 
 .header-right-item a:hover {
@@ -68,7 +68,9 @@ html, body {
   color:black;
 }
 
-input[type=text], input[type=email], input[type=password], input.text, textarea 
+input[type=text],
+input.text,
+textarea
 {
     width: 160px;
     -moz-border-radius: 3px;
@@ -83,14 +85,15 @@ input[type=text], input[type=email], input[type=password], input.text, textarea
     resize: none;
 }
 
-.main-nav { 
+.main-nav {
   width:980px;
   margin:auto;
+  margin-bottom: 20px;
   border: 1px solid rgba(255,255,255,.15);
   border-radius: 4px;
   background-color: #464646;
   color: #555;
-  
+
 }
 
 .main-nav li {
@@ -108,4 +111,3 @@ input[type=text], input[type=email], input[type=password], input.text, textarea
   text-decoration: underline;
   color:white;
 }
-
