@@ -3,3 +3,13 @@ Amsdam, sans-serif
 "Crimson Text", sans-serif
 Montserrat, sans-serif
 
+color: #3e3d3d;(button)
+color: #bebebf;
+color: #cecece; (button)
+color: #ffffff;
+
+background: #e3e3e3
+
+
+
+
