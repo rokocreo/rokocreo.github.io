@@ -460,6 +460,7 @@ a.btn {
 .history  {
   /*border: 1px solid brown;*/
   border-bottom: 2px solid brown;
+  background: #ededed;
 }
 
 .history .container {
