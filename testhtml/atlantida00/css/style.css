@@ -47,7 +47,7 @@ h2 {
   font-weight: normal;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 
 .text-under-h2 {
@@ -57,7 +57,7 @@ h2 {
   line-height: 25px;
   /*line-height: 20px;*/
   font-family: "Crimson Text", sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
 }
 
 .services .text-under-h2,
@@ -475,7 +475,7 @@ a.btn {
 .history .container {
   min-height: 1600px;
   /*border: 1px solid blue;*/
-  border-top: 2px solid blue;
+  /*border-top: 2px solid blue;*/
   /*border-bottom: 2px solid blue;*/
 
 }
@@ -710,6 +710,38 @@ a.btn {
   background: url("../img/ourteam-bg.jpg") no-repeat;
   background-size: cover;
 }
+
+.outeam-item-row {
+  margin-top: 60px;
+  text-align: center;
+}
+.ourteam-item {
+  display:inline-block;
+  width: 271px;
+  height: 338px;
+  /*border:1px solid black;*/
+}
+
+.ourteam-item:nth-of-type(2) {
+  margin: 0 30px;
+}
+
+.ourteam-item:nth-of-type(1) {
+  background: url("../img/ourteam-item-1.jpg") no-repeat;
+}
+
+.ourteam-item:nth-of-type(2) {
+  background: url("../img/ourteam-item-2.jpg") no-repeat;
+}
+
+.ourteam .ourteam-item:nth-of-type(3) {
+  background: url("../img/ourteam-item-3.jpg") no-repeat;
+}
+
+
+
+
+
 
 /* Footer */
 
