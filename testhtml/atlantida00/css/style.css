@@ -459,7 +459,7 @@ a.btn {
 /* -------------------------------------------*/
 .history  {
   /*border: 1px solid brown;*/
-  border-bottom: 2px solid brown;
+  /*border-bottom: 2px solid brown;*/
   background: #ededed;
 }
 
@@ -467,7 +467,7 @@ a.btn {
   min-height: 1600px;
   /*border: 1px solid blue;*/
   border-top: 2px solid blue;
-  border-bottom: 2px solid blue;
+  /*border-bottom: 2px solid blue;*/
 
 }
 
@@ -494,16 +494,6 @@ a.btn {
   padding-top: 160px;
   color: #3e3d3d;
 }
-
-/*.history-items-gr::before {
-  position: absolute;
-  content:"";
-  left: 584px;
-  top: 105px;
-  width: 2px;
-  height: 1051px;
-  background: url("../img/history-line.png") no-repeat;
-}*/
 
 .left-column,
 .right-column  {
@@ -642,7 +632,6 @@ a.btn {
   margin-top: 270px;
 }
 
-/*.left-column .history-item:nth-of-type(1)::before*/
 .left-column .history-item::before {
   position: absolute;
   content:"";
@@ -653,7 +642,6 @@ a.btn {
   background: url("../img/history-item-left-border.png")
 }
 
-/*.left-column .history-item:nth-of-type(1)::after*/
 .left-column .history-item::after {
   position: absolute;
   content: "";
@@ -664,6 +652,61 @@ a.btn {
   border-radius: 50%;
   background: #3e3d3d;
 }
+
+.right-column .history-item:nth-of-type(1) {
+  margin-top: 80px;
+}
+
+.right-column .history-item:nth-of-type(2) {
+  margin-top: 50px;
+}
+
+.right-column .history-item:nth-of-type(3) {
+  margin-top: 180px;
+}
+
+.right-column .history-item:nth-of-type(2n+1)::before {
+  position: absolute;
+  content:"";
+  top:0;
+  left: 0px;
+  width: 570px;
+  height: 196px;
+  background: url("../img/history-item-right-border-1.png")
+}
+
+.right-column .history-item:nth-of-type(2) {
+  position: relative;
+  color: #e4e4e4;
+  color: #ffffff;
+  color: red;
+  z-index: 200;
+}
+
+.right-column .history-item:nth-of-type(2)::before {
+  position: absolute;
+  content:"";
+  top:0;
+  left:0;
+  width: 570px;
+  height: 298px;
+  background: url("../img/history-item-right-border-2.png");
+  opacity: 0.8;
+  z-index: 10;
+}
+
+
+.right-column .history-item::after {
+  position: absolute;
+  content: "";
+  top: 15px;
+  left: -32px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #3e3d3d;
+}
+
 
 /* end of history */
 /* Footer */
