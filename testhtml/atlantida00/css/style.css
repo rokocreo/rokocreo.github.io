@@ -60,6 +60,12 @@ h2 {
   letter-spacing: 1px;
 }
 
+.services .text-under-h2,
+.history .text-under-h2,
+.ourteam .text-under-h2 {
+  text-align: center;
+}
+
 .color-grey-h2 {
   color: #3e3d3d;
 }
@@ -105,6 +111,30 @@ h2 {
 a.btn {
   text-decoration: none;
 }
+
+.about-us h2::before,
+.history h2::before,
+.ourteam h2::before {
+  position: absolute;
+  content: "";
+  top: 150px;
+  left: 490px;
+  width:186px;
+  height: 5px;
+  background: url("../img/h2-divider-black.png") no-repeat;
+}
+
+.services h2::before {
+  position: absolute;
+  content: "";
+  top: 150px;
+  left: 490px;
+  width:186px;
+  height: 5px;
+  background: url("../img/h2-divider-white.png") no-repeat;
+}
+
+
 /* end of common styles */
 
 
@@ -294,16 +324,6 @@ a.btn {
   background: #ffffff;
 }
 
-.about-us h2:before {
-  position: absolute;
-  content: "";
-  top: 150px;
-  left: 490px;
-  width:186px;
-  height: 5px;
-  background: url("../img/h2-divider-black.png") no-repeat;
-}
-
 .btn-about {
   display: block;
   margin: 0 auto;
@@ -377,18 +397,7 @@ a.btn {
   /*opacity: 0.9;*/
 }
 
-.services h2:before {
-  position: absolute;
-  content: "";
-  top: 150px;
-  left: 490px;
-  width:186px;
-  height: 5px;
-  background: url("../img/h2-divider-white.png") no-repeat;
-}
-
 .services .text-under-h2 {
-  text-align: center;
   color: #bebebf;
 }
 
@@ -469,23 +478,6 @@ a.btn {
   border-top: 2px solid blue;
   /*border-bottom: 2px solid blue;*/
 
-}
-
-.history h2:before {
-  position: absolute;
-  content: "";
-  top: 150px;
-  left: 490px;
-  width:186px;
-  height: 5px;
-  background: url("../img/h2-divider-black.png") no-repeat;
-}
-
-.history .text-under-h2 {
-  text-align: center;
-  /*color: #bebebf;*/
-  /*color: #3e3d3d;*/
-  /*border:1px solid red;*/
 }
 
 .history-items-gr {
@@ -723,18 +715,4 @@ a.btn {
 
 .main-footer {
     /*background: #232323 url("../img/bg-footer.jpg") repeat;*/
-}
-
-.ourteam h2:before {
-  position: absolute;
-  content: "";
-  top: 150px;
-  left: 490px;
-  width:186px;
-  height: 5px;
-  background: url("../img/h2-divider-black.png") no-repeat;
-}
-
-.text-under-h2 {
-  text-align: center;
 }
