@@ -707,10 +707,34 @@ a.btn {
   background: #3e3d3d;
 }
 
-
 /* end of history */
+
+/* ++++++++++++++++++++++++++++++++ *
+/* OUR TEAM STARTED */
+/* +++++++++++++++++++++++++++++++ */
+
+.ourteam {
+  min-height: 666px;
+  background: url("../img/ourteam-bg.jpg") no-repeat;
+  background-size: cover;
+}
+
 /* Footer */
 
 .main-footer {
     /*background: #232323 url("../img/bg-footer.jpg") repeat;*/
+}
+
+.ourteam h2:before {
+  position: absolute;
+  content: "";
+  top: 150px;
+  left: 490px;
+  width:186px;
+  height: 5px;
+  background: url("../img/h2-divider-black.png") no-repeat;
+}
+
+.text-under-h2 {
+  text-align: center;
 }
