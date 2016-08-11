@@ -3,22 +3,7 @@
 html, body {
   margin: 0;
   padding: 0;
-}
-
-html {
-  /*background: #939393;*/
-}
-
-
-body {
   font-family: sans-serif;
-  /*font-size: 14px;*/
-  /*line-height: 24px;*/
-  /*font-weight: bold;*/
-  /*text-transform: uppercase;*/
-  /*width: 1600px;*/
-  /*margin: auto;*/
-  /*border: 1px solid black;*/
 }
 
 @font-face {
@@ -43,7 +28,7 @@ h2 {
   margin: 0;
   font-size: 20px;
   line-height: 225px;
-  font-family: Amsdam,"PT Sans Narrow", sans-serif;
+  font-family: Amsdam, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   text-align: center;
@@ -90,16 +75,6 @@ h2 {
   border: 2px solid #3e3d3d;
   color: #cecece;
   background: #3e3d3d;
-}
-
-.btn-get-started {
-  position: relative;
-  width: 150px;
-  font-size: 15px;
-  line-height: 50px;
-  background-color: inherit;
-  border: 2px solid #ffffff;
-  color:#ffffff;
 }
 
 .btn-white {
@@ -176,7 +151,7 @@ a.btn {
 }
 
 .main-navigation {
-  margin-left: 110px;
+  margin-left: 40px;
 }
 
 .main-navigation a {
@@ -187,6 +162,10 @@ a.btn {
   font-size: 12px;
   /*line-height: 50px;*/
   color: #b7b7b7;
+}
+
+.main-navigation a:hover {
+  color:#3e3d3d;
 }
 
 .social-block {
@@ -239,20 +218,21 @@ a.btn {
 
 .slider .container {
   position: relative;
-  padding-top:120px;
+  padding-top: 185px;
+  padding-bottom: 195px;
   text-align: center;
   /*vertical-align: bottom;*/
 }
 
 .slider-prev {
   position: absolute;
-  top: 250px;
+  top: 270px;
   left: 0;
 }
 
 .slider-next {
   position: absolute;
-  top: 250px;
+  top: 270px;
   right: 0;
 }
 
@@ -263,9 +243,10 @@ a.btn {
 }
 
 .text-slider {
+  margin:0;
   font-family: "Crimson Text", sans-serif;
   font-size: 14px;
-  line-height: 50px;
+  /*line-height: 50px;*/
   letter-spacing: 2px;
   color: #ffffff;
 }
@@ -276,9 +257,10 @@ a.btn {
   position: relative;
   margin: 0;
   padding:0;
+  margin-top: 60px;
   font-family: Amsdam, sans-serif;
   font-size: 36px;
-  line-height: 200px;
+  /*line-height: 200px;*/
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -288,23 +270,48 @@ a.btn {
 .slider h1::before {
   position: absolute;
   content: "";
-  top:40px;
+  top: -32px;
   left:-5px;
   width:519px;
   height:109px;
   background: url("../img/slider-lines.png") no-repeat;
 }
 
+.btn-get-started {
+  position: relative;
+  display: inline-block;
+  /*text-align:center;*/
+  box-sizing: border-box;
+  width: 150px;
+  /*height: 42px;*/
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 10px 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  /*line-height: 50px;*/
+  letter-spacing: 1px;
+  text-decoration: none;
+  background-color: inherit;
+  color:#ffffff;
+  border: 2px solid #ffffff;
+}
+
 .btn-get-started::after {
   position: absolute;
   content:"";
-  left: 60px;
-  top: 43px;
+  left: 62px;
+  top: 32px;
   width: 15px;
   height: 50px;
   background: url("../img/slider-button-arrow.png") no-repeat;
 }
 
+.btn-get-started:hover::after {
+  position: absolute;
+  content:"";
+  top: 180px;
+}
 /* slider end */
 
 /* !!!!!!!!!!!!!!!!  about us */
