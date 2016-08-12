@@ -26,8 +26,9 @@ h2 {
   position: relative;
   display: block;
   margin: 0;
+  padding-top: 55px;
   font-size: 20px;
-  line-height: 225px;
+  /*line-height: 225px;*/
   font-family: Amsdam, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
@@ -38,9 +39,9 @@ h2 {
 .text-under-h2 {
   display: block;
   margin: 0 70px;
+  padding-top: 65px;
   font-size: 14px;
-  line-height: 25px;
-  /*line-height: 20px;*/
+  /*line-height: 25px;*/
   font-family: "Crimson Text", sans-serif;
   letter-spacing: 1.5px;
 }
@@ -59,40 +60,12 @@ h2 {
   color: #ffffff;
 }
 
-
-.btn {
-  display: inline-block;
-  text-align:center;
-  /*padding-top: 10px;*/
-  /*padding-bottom: 10px;*/
-  width:135px;
-  /*height:40px;*/
-  box-sizing: border-box;
-  font-family: Montserrat, sans-serif;
-  font-size: 13px;
-  line-height: 44px;
-  letter-spacing: 1px;
-  border: 2px solid #3e3d3d;
-  color: #cecece;
-  background: #3e3d3d;
-}
-
-.btn-white {
-  background: #ffffff;
-  color: #3e3d3d;
-}
-
-.btn-about a,
-a.btn {
-  text-decoration: none;
-}
-
 .about-us h2::before,
 .history h2::before,
 .ourteam h2::before {
   position: absolute;
   content: "";
-  top: 150px;
+  top: 110px;
   left: 490px;
   width:186px;
   height: 5px;
@@ -102,7 +75,7 @@ a.btn {
 .services h2::before {
   position: absolute;
   content: "";
-  top: 150px;
+  top: 110px;
   left: 490px;
   width:186px;
   height: 5px;
@@ -308,9 +281,7 @@ a.btn {
 }
 
 .btn-get-started:hover::after {
-  position: absolute;
-  content:"";
-  top: 180px;
+  top: 42px;
 }
 /* slider end */
 
@@ -331,11 +302,33 @@ a.btn {
   background: #ffffff;
 }
 
-.btn-about {
+.btn-about-row {
   display: block;
   margin: 0 auto;
   margin: 50px 0;
   text-align: center;
+}
+
+.btn-about {
+  display: inline-block;
+  text-align:center;
+  padding: 10px;
+  width:135px;
+  /*height:40px;*/
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  /*line-height: 44px;*/
+  letter-spacing: 1px;
+  border: 2px solid #3e3d3d;
+  background: #ffffff;
+  color: #3e3d3d;
+  text-decoration: none;
+}
+
+.btn-about:hover {
+  color: #cecece;
+  background: #3e3d3d;
 }
 
 .about-us-row-items {
@@ -409,7 +402,7 @@ a.btn {
 }
 
 .services-row-item {
-  margin-top: 30px;
+  margin-top: 90px;
 }
 
 .services-item {
@@ -480,7 +473,7 @@ a.btn {
 }
 
 .history .container {
-  min-height: 1600px;
+  min-height: 1490px;
   /*border: 1px solid blue;*/
   /*border-top: 2px solid blue;*/
   /*border-bottom: 2px solid blue;*/
@@ -490,7 +483,7 @@ a.btn {
 .history-items-gr {
   /*position: relative;*/
   display: block;
-  padding-top: 160px;
+  padding-top: 120px;
   color: #3e3d3d;
 }
 
@@ -719,7 +712,7 @@ a.btn {
 }
 
 .outeam-item-row {
-  margin-top: 60px;
+  margin-top: 70px;
   text-align: center;
 }
 .ourteam-item {
