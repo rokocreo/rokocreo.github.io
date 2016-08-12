@@ -724,6 +724,7 @@ a.btn {
 }
 .ourteam-item {
   display:inline-block;
+  vertical-align: top;
   width: 271px;
   height: 338px;
   /*border:1px solid black;*/
@@ -745,8 +746,55 @@ a.btn {
   background: url("../img/ourteam-item-3.jpg") no-repeat;
 }
 
+.ourteam-item-child {
+  display:block;
+  visibility: hidden;
+  box-sizing: border-box;
+  width: 250px;
+  height: 318px;
+  margin: 10px;
+  padding-top: 210px;
+  padding-left: 20px;
+  background: #ffffff;
+  opacity: 0.7;
+}
+.ourteam-item:hover .ourteam-item-child {
+  visibility: visible;
+}
 
+.ourteam-card {
+  display: block;
+  /*border:1px solid red;*/
+}
 
+.ourteam-card span {
+  display: block;
+  padding-top: 5px;
+  text-align: left;
+}
+
+.ourteam-card span:first-of-type {
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  /*line-height: 18px;*/
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: 3e3d3d;
+}
+
+.ourteam-card span:nth-of-type(2) {
+  width:140px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  font-family: "Crimson Text", sans-serif;
+  font-size: 14px;
+  /*line-height: 18px;*/
+  text-transform: capitalize;
+  font-weight: normal;
+  font-style: italic;
+  color: #3e3d3d;
+  border-bottom: 2px solid #3e3d3d;
+}
 
 
 
