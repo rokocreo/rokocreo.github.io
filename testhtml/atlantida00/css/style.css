@@ -402,17 +402,19 @@ h2 {
 }
 
 .services-row-item {
-  margin-top: 90px;
+  margin: 0 auto;
+  margin-top: 80px;
 }
 
 .services-item {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  height: 390px;
+  height: 400px;
   width: 270px;
+  box-sizing: border-box;
   /*padding: 15px;*/
-  margin-left: 15px;
+  margin-right: 25px;
   text-align: center;
   color: #bebebf;
   /*color: #d8d8d8;*/
@@ -421,6 +423,10 @@ h2 {
   /*border: 1px solid red;*/
   border: 2px solid #898989;
   border-top: none;
+}
+
+.services-item:last-of-type {
+  margin-right: 0;
 }
 
 .services-img {
