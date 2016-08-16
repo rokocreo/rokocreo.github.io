@@ -96,12 +96,12 @@ h2 {
 .header-logo,
 .main-navigation,
 .main-navigation li,
-.main-navigation a,
 .social-block {
   display: inline-block;
+  /*border:1px solid red;*/
 }
 
-.header-logo {
+.header-logo a {
   padding-left:55px;
   font-family: Montserrat, sans-serif;
   font-size: 18px;
@@ -109,6 +109,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #757575;
+  text-decoration: none;
   opacity: 0.8;
 }
 
@@ -128,7 +129,7 @@ h2 {
 }
 
 .main-navigation a {
-  margin-right:15px;
+  padding-right:15px;
   text-decoration: none;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
@@ -377,8 +378,7 @@ h2 {
   right:0px;
   width:1px;
   height:168px;
-  /*background:red;*/
-  background: url("../img/about-divider.jpg") no-repeat;
+  background: #b0b0b0;
 }
 
 .about-us-item:last-child:before {
