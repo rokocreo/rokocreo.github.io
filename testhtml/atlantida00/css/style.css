@@ -826,9 +826,11 @@ h2 {
 }
 
 
+/*---------------------------*/
+/* Footer START*/
+/*---------------------------*/
 
-/* Footer */
-
-.main-footer {
-    /*background: #232323 url("../img/bg-footer.jpg") repeat;*/
+.footer {
+  min-height: 645px;
+  background: #232323 url("../img/footer-bg.jpg") repeat;
 }
