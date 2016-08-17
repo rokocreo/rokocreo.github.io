@@ -62,7 +62,8 @@ h2 {
 
 .about-us h2::before,
 .history h2::before,
-.ourteam h2::before {
+.ourteam h2::before,
+.portfolio h2::before {
   position: absolute;
   content: "";
   top: 110px;
@@ -824,7 +825,63 @@ h2 {
   color: #3e3d3d;
   border-bottom: 2px solid #3e3d3d;
 }
+/*---------------------------*/
+/* Portfolio STARTed*/
+/*---------------------------*/
+.portfolio .container {
+  text-align: center;
+}
 
+.portfolio h2,
+.portfolio .text-under-h2 {
+  color: #3e3d3d;
+  text-align: center;
+}
+
+.portfolio .text-under-h2 {
+  margin-bottom: 50px;
+}
+
+.portfolio ul {
+  /*display: block;*/
+  /*border: 1px solid red;*/
+  margin-bottom: 60px;
+}
+
+.portfolio li {
+  display:inline-block;
+  /*margin-left: -4px;*/
+}
+
+.portfolio li a {
+  padding: 7px 20px;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3e3d3d;;
+  border: 2px solid #3e3d3d;
+}
+
+.portfolio li a.active {
+  color: #ffffff;
+  background: #3e3d3d;
+}
+
+.portfolio li a:hover {
+  color: #ffffff;
+  background: #3e3d3d;
+}
+
+.portfolio-iteams-row {
+  min-height: 690px;
+  background: silver;
+}
+
+/* Portfolio end*/
 
 /*---------------------------*/
 /* Footer START*/
